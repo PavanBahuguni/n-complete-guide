@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
       </div>
     </app-another>
     <app-databinding></app-databinding>
+    <app-property-binding [result]="10"></app-property-binding>
     `,
   styles: [`
   h1{
