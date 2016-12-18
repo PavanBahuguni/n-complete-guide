@@ -5,12 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { OtherComponent, AnotherComponent } from './other';
+import { DatabindingComponent } from './databinding/databinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OtherComponent,
-    AnotherComponent
+    AnotherComponent,
+    DatabindingComponent
   ],
   imports: [
     BrowserModule,

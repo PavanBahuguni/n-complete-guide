@@ -8,21 +8,16 @@ import { Component } from '@angular/core';
     <app-another>
       <div>
         <h1>Hello</h1>
-        <p> World!</p>
+        <p> Angular2!</p>
       </div>
     </app-another>
-    <app-another>
-      <div>
-        <h1>Hello</h1>
-        <p>Anular2!</p>
-      </div>  
-    </app-another>
-  `,
+    <app-databinding></app-databinding>
+    `,
   styles: [`
   h1{
     color:red;
   }`]
 })
 export class AppComponent {
-  title = 'Does it work!?';
+  title = 'Root Component..!';
 }
