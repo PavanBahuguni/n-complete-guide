@@ -3,7 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>testing</h1>
+    <h1>{{title}}</h1>
+    <app-other></app-other>
+    <app-other></app-other>
   `,
   styles: [``]
 })
