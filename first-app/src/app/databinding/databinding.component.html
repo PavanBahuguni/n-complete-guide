@@ -8,4 +8,4 @@
 <p [ngClass]="{redBorder:onTest()}">Is this styled?</p>
 <p [ngStyle]="{color:'blue'}">Is this styled?</p>
 <app-property-binding [result]="10"></app-property-binding><hr>
-<app-event-bindin></app-event-bindin>
+<app-event-bindin (clicked)="onClicked($event)"></app-event-bindin>
