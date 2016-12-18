@@ -5,7 +5,18 @@ import { Component } from '@angular/core';
   template: `
     <h1>{{title}}</h1>
     <app-other></app-other>
-    <app-another></app-another>
+    <app-another>
+      <div>
+        <h1>Hello</h1>
+        <p> World!</p>
+      </div>
+    </app-another>
+    <app-another>
+      <div>
+        <h1>Hello</h1>
+        <p>Anular2!</p>
+      </div>  
+    </app-another>
   `,
   styles: [`
   h1{
