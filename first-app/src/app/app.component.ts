@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
     <app-other></app-other>
     <app-another></app-another>
   `,
-  styles: [``]
+  styles: [`
+  h1{
+    color:red;
+  }`]
 })
 export class AppComponent {
   title = 'Does it work!?';
