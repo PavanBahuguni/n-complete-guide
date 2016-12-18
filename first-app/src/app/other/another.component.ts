@@ -4,7 +4,7 @@ import { Component} from '@angular/core';
   selector: 'app-another',
   template: `
     <article>
-        <p>Sibling of another componenet</p>
+        <p>Sibling of other componenet</p>
         <ng-content></ng-content>
     </article>
   `,

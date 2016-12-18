@@ -1,4 +1,9 @@
+<h2>String interpolation</h2>
 <p>
-  {{strinInterpolation}}<br>
-  This is number interploation:= {{numberInterpolation}}
+  {{strinInterpolation}} | {{numberInterpolation}}
 </p>
+<hr>
+<h2>Property Binding</h2>
+<input type="text" [value]="strinInterpolation">
+<p [ngClass]="{redBorder:onTest()}">Is this styled?</p>
+<p [ngStyle]="{color:'blue'}">Is this styled?</p>
